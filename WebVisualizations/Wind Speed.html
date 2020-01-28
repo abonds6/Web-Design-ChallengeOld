@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Bootstrap Visualization Dashboard</title>
+  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="Style.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+  <!-- Navbar with links and dropdown-->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid navbar-custom">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="col-xs-9 phone-nav">
+            <a class="navbar-brand" href= "landing.html" id="landing-btn">Latitude</a>
+          </div>
+        </div>  
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right"navbar-right-custom> 
+            <li><a href="landing.html">Home</a></li> 
+            </li> 
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="active"><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+              <li class="active"><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+              <li class="active"><a class="dropdown-item" href="Temperature.html">Max Temperature</a></li>
+              <li class="active"><a class="dropdown-item" href="Wind Speed.html">Wind Speed</a></li>
+            </ul>
+            <li><a href="Comparison.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li>        
+            <li><a href="">    </a></li> 
+          </ul>
+        </div>   
+    </div> 
+  </nav>
+  <div class="container">
+    <div class="container-fluid">
+    <h1 class="description-header text-center">Latitude vs Wind Speed</h1>
+      <div class="col-md-12">
+        <div class="row">
+          <img src="City Latitude vs. Wind Speed.html" alt="windspeed" height="300" width="400">  
+          <p>Temperature is a physical property of matter that quantitatively expresses hot and cold. Temperature is the manifestation of thermal energy, present in all matter, which is the source of the occurrence of heat, a flow of energy, when a body is in contact with another that is colder.</p>
+          <br>
+          <h3>Summary</h3>
+          <br>
+          <p>There is a correlation of cities within latitudes of -40 and 80 where the wind speeds are between 0 mph and 20 mph.</p>    
+        </div>
+      </div>
+    </div>  
+  </div>
+ 
+</body> 
+</html>  

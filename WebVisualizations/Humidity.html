@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Bootstrap Visualization Dashboard</title>
+  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="Style.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+  <!-- Navbar with links and dropdown-->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid navbar-custom">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="col-xs-9 phone-nav">
+            <a class="navbar-brand" href= "landing.html" id="landing-btn">Latitude</a>
+          </div>
+        </div>  
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right"navbar-right-custom> 
+            <li><a href="landing.html">Home</a></li> 
+            </li> 
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="active"><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+              <li class="active"><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+              <li class="active"><a class="dropdown-item" href="Temperature.html">Max Temperature</a></li>
+              <li class="active"><a class="dropdown-item" href="Wind Speed.html">Wind Speed</a></li>
+            </ul>
+            <li><a href="Comparison.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li>        
+            <li><a href="">    </a></li> 
+          </ul>
+        </div>   
+    </div> 
+  </nav>
+
+  <div class="container">
+    <div class="container-fluid">
+    <h1 class="description-header text-center">Latitude vs Humidity</h1>
+      <div class="col-md-12">
+        <div class="row">
+          <img src="City Latitude vs. Humidity.html" alt="humidity">  
+          <p>Humidity is the concentration of water vapour present in the air. Water vapour, the gaseous state of water, is generally invisible to the human eye.[1] Humidity indicates the likelihood for precipitation, dew, or fog to be present. The amount of water vapour needed to achieve saturation increases as the temperature increases. As the temperature of a parcel of air decreases it will eventually reach the saturation point without adding or losing water mass. The amount of water vapour contained within a parcel of air can vary significantly. For example, a parcel of air near saturation may contain 28 grams of water per cubic metre of air at 30 °C, but only 8 grams of water per cubic metre of air at 8 °C.</p>
+          <br>
+          <h3>Summary</h3>
+          <br>
+          <p>There are large groups of cities with humidity above 40% above and below the equator but there is no significant correlation between latitude and humidity.</p>    
+        </div>
+      </div>
+    </div>  
+  </div>
+
+</body> 
+</html>  

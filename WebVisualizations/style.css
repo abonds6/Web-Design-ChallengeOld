@@ -1,0 +1,105 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: rgb(252, 249, 249);
+}
+
+/* Styling the navigation */
+.navbar {
+  padding: 10px;
+  background: lightcyan;
+  font-weight: bold;
+  
+
+}
+
+.navbar li {
+  color: #000;
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: lightcyan;
+  border-radius: 3px;
+  font-weight: bold;
+  height: 50px;
+}
+
+.navbar li a {
+  color: #000;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 60px;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(6, 8, 6);
+  font-family: Georgia, Times, "Times New Roman",serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 60px;
+  margin: 0;
+}
+
+header, giving it a height, a background color, and some top padding */
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #cdcdcd;
+}
+
+.box {
+  background-color: white;
+  width: 300px;
+  border: 15px solid rgb(182, 182, 182);
+  padding: 50px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+  border-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  margin-right: 50px;
+  margin-left: 50px;
+  border-start-end-radius: 10px;
+  border-spacing: 50px;
+}
+
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+  .box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .navbar ul {
+    visibility: hidden;
+  }
+  #nav-select {
+    visibility: visible;
+  }
+
+  .visualization {
+    height: "50";
+    width: "50";
+  }
